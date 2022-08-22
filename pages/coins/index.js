@@ -20,6 +20,7 @@ const CoinList = ({ coinData }) => {
 
 // fetching data from external apis or database
 // getServerSideProps
+
 export const getStaticProps = async () => {
 
     // const id = params.id;
