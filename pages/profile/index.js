@@ -1,5 +1,10 @@
 const ProfileDefault = () => {
-    return <div>PROFILE PAGE</div>
+    return (
+    
+        <h1>profile</h1>
+     )
+    
+    
 };
 
 export default ProfileDefault;
