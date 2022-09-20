@@ -3,14 +3,14 @@ import { data } from '../../../lib/data'
 
 const Display = ({item}) => {
 return (
-      <div>
+    <div>
         <h1>{item?.id}</h1>
         <h1>{item?.name}</h1>
-        {/* <Image src={`/${item.image}`} alt="Vercel Logo" width={400} height={400} /> */}
+        <Image src={`/${item?.image}`} alt="Vercel Logo" width={400} height={400} />
         <p>{item?.description}</p>
                             
     </div>
-  )
+)
 }
 
 export default Display
