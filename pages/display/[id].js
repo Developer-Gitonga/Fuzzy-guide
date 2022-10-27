@@ -34,7 +34,7 @@ export const getStaticPaths = () => {
 export const getStaticProps = ({params}) => {
     // const query = await fetch(`http://localhost:3000/display/${id}`);
     // if id == data.id
-    // const data = data
+    const data = data
 
     return {
         props: {
